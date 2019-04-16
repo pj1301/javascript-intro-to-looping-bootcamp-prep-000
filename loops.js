@@ -1,9 +1,13 @@
 function forLoop() {
   for (let i = 0; i < 25; i++) {
-    return "I am ${i} strange loop${i === 0 ? \'\' : \'s\'}."
+    if (i == 1) {
+      return `I am ${i} strange loop.`
+    } else {
+      return `I am ${i} strange loops.`
+    }
   }
 
-forLoop();
+
 
 
 //    if (i == 1) { //if you put just one = you are equating not comparing and the loop will be infinite
