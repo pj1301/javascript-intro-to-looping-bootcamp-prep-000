@@ -9,7 +9,9 @@ function forLoop(array) {
 }
 
 function whileLoop(n) {
-  while ()
+  while (parseInt(n) > 0) {
+    return parseInt(n) - 1
+  }
 }
 
 
