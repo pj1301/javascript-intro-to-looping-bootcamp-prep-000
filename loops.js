@@ -16,7 +16,11 @@ function whileLoop(n) {
   }
 }
 
-
+function doWhileLoop(num) {
+  do {
+    [loopBody];
+  } while (incrementVariable(num))
+}
 
 //    if (i == 1) { //if you put just one = you are equating not comparing and the loop will be infinite
 //      console.log("I am ${i} strange loop");
