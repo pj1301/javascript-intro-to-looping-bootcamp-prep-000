@@ -30,8 +30,6 @@ function doWhileLoop(num) {
   } while (incrementVariable() < num)
 }
 
-
-
 function doWhileLoop(10) {
   var i = 0;
   function incrementVariable() {
