@@ -8,7 +8,7 @@ function forLoop(array) {
   } return array //giving access to the array I have created. Most of the time you want to return the function I've created.
 }
 
-forLoop()
+
 
 
 //    if (i == 1) { //if you put just one = you are equating not comparing and the loop will be infinite
