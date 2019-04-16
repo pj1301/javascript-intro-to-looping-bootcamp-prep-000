@@ -5,7 +5,7 @@ function forLoop(array) {
     } else {
       array.push(`I am ${i} strange loops.`)
     }
-  } return array //giving access to the array I have created
+  } return array //giving access to the array I have created. Most of the time you want to return the function I've created.
 }
 
 
