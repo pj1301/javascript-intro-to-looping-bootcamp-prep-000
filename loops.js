@@ -17,6 +17,7 @@ function whileLoop(n) {
 }
 
 var i = parseInt(num);
+var num = 0
 
 function incrementVariable() {
   i = i + 1;
