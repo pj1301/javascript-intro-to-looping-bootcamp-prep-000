@@ -17,7 +17,6 @@ function whileLoop(n) {
 }
 
 var i = parseInt(num);
-var num = 0
 
 function incrementVariable() {
   i = i + 1;
@@ -33,7 +32,7 @@ function doWhileLoop(num) {
 function doWhileLoop(num) {
   do {
     console.log("I run once regardless.")
-  } while (incrementVariable() > 10)
+  } while (incrementVariable() < 10)
 }
 
 //function doWhileLoop(num) {
