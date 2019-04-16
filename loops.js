@@ -11,7 +11,7 @@ function forLoop(array) {
 function whileLoop(n) {
   while (parseInt(n) > 0) {
     return --n
-  } if (parseInt(n) == 0) {
+  } if (n == 0) {
     return "done"
   }
 }
