@@ -19,7 +19,13 @@ function whileLoop(n) {
 function doWhileLoop(num) {
   do {
     [loopBody];
-  } while (incrementVariable(num))
+  } while (incrementVariable(num) 1)
+}
+
+function doWhileLoop(num) {
+  do {
+    [loopBody];
+  } while (incrementVariable(num) < 10)
 }
 
 //    if (i == 1) { //if you put just one = you are equating not comparing and the loop will be infinite
